@@ -1,4 +1,3 @@
-
 ![image](https://user-images.githubusercontent.com/17476059/132772181-7fdfacdd-0467-4c07-ab98-dbffd1380313.png)
 
 
@@ -35,15 +34,17 @@ call the key e.g. `sre_jenkins`
 ## END
 ___
 
-# Jenkins:
+# Jenkins Goal: Pipline:
+
+![image](https://user-images.githubusercontent.com/17476059/132772294-31833870-d982-407b-bb33-30dbf950bddf.png)
 
 
-The goal of this repo is3 fold:
+```
+The goal of this repo is 3 fold:
     - Test the repo for issues 
     - Merge a branch to the main 
-    - Push the chnages to the AWS instance and run the new chnagnes 
+    - Push the chnages to the AWS instance and run the new changes 
 ```
-![image](https://user-images.githubusercontent.com/17476059/132772294-31833870-d982-407b-bb33-30dbf950bddf.png)
 
 ```
 ## Jenkins: Webhooks 
