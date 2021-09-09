@@ -1,4 +1,9 @@
-# Wednesday
+
+![image](https://user-images.githubusercontent.com/17476059/132772181-7fdfacdd-0467-4c07-ab98-dbffd1380313.png)
+
+
+
+# Wednesday/Thrusday 
 ## Topic:
     - Getting SSH keys configured
     - CICD
@@ -29,6 +34,17 @@ call the key e.g. `sre_jenkins`
 ```
 ## END
 ___
+
+# Jenkins:
+
+
+The goal of this repo is3 fold:
+    - Test the repo for issues 
+    - Merge a branch to the main 
+    - Push the chnages to the AWS instance and run the new chnagnes 
+![image](https://user-images.githubusercontent.com/17476059/132772294-31833870-d982-407b-bb33-30dbf950bddf.png)
+
+
 ## Jenkins: Webhooks 
 ` This means if there is a change in your repo then jenkins will 
 catch it and do somthing about it
@@ -43,6 +59,9 @@ catch it and do somthing about it
 - Name the *new item* e.g. SRE_CI
 - Select the freestyle project and click `ok` at the bottom
 - select the first option and click continue 
+
+![image](https://user-images.githubusercontent.com/17476059/132772623-0ab358ea-19f4-4cc4-be99-73c08f5b5a8e.png)
+
 
 Set the configuration as described below 
 ```
@@ -64,8 +83,9 @@ Set the configuration as described below
         - Repository URL = the github url
         - Credentials = jenkins key (the one you linked to github) 
     Branches to build:    
-        - Branch Specifier (blank for 'any') = */main
-    
+        - Branch Specifier (blank for 'any') = */main (not master)
+ ![image](https://user-images.githubusercontent.com/17476059/132772780-7b050e3f-0e97-4290-bfa7-ae73117e72ed.png)
+
 6: GitHub hook trigger for GITScm polling = ticked
 
 7: Provide Node & npm bin/ folder to PATH = ticked 
@@ -82,6 +102,8 @@ Set the configuration as described below
     - Projects to build [Merge item] (Not created yet)
 click SAVE    
 ```
+![image](https://user-images.githubusercontent.com/17476059/132772832-db859636-7d4f-4dca-b48c-8ab961d9b53d.png)
+
 ### Once you save somthing to your repo it gets tested in the instance and you will recive the results in the **Console log**
 
 ___
