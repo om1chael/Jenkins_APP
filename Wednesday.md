@@ -85,8 +85,9 @@ Set the configuration as described below
         - Credentials = jenkins key (the one you linked to github) 
     Branches to build:    
         - Branch Specifier (blank for 'any') = */main (not master)
+```
  ![image](https://user-images.githubusercontent.com/17476059/132772780-7b050e3f-0e97-4290-bfa7-ae73117e72ed.png)
-
+```
 6: GitHub hook trigger for GITScm polling = ticked
 
 7: Provide Node & npm bin/ folder to PATH = ticked 
