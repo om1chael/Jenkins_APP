@@ -42,9 +42,10 @@ The goal of this repo is3 fold:
     - Test the repo for issues 
     - Merge a branch to the main 
     - Push the chnages to the AWS instance and run the new chnagnes 
+```
 ![image](https://user-images.githubusercontent.com/17476059/132772294-31833870-d982-407b-bb33-30dbf950bddf.png)
 
-
+```
 ## Jenkins: Webhooks 
 ` This means if there is a change in your repo then jenkins will 
 catch it and do somthing about it
@@ -59,7 +60,7 @@ catch it and do somthing about it
 - Name the *new item* e.g. SRE_CI
 - Select the freestyle project and click `ok` at the bottom
 - select the first option and click continue 
-
+```
 ![image](https://user-images.githubusercontent.com/17476059/132772623-0ab358ea-19f4-4cc4-be99-73c08f5b5a8e.png)
 
 
